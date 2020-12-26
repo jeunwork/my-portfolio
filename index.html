@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jieun's Portfolio</title>
+    <meta name="description" content="Portfolio for the world">
+    <meta name="author" content="Jieun">
+    <link rel="icon" type="image/jpg" href="imgs/JE-removebg.png">
+    <script src="https://kit.fontawesome.com/13afbdcda1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="imgs/jeunwork-removebg.png" alt="">
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu_item active" data-link="#home">Home</li>
+            <li class="navbar__menu_item" data-link="#about">About</li>
+            <li class="navbar__menu_item" data-link="#skills">Skills</li>
+            <li class="navbar__menu_item" data-link="#work">My work</li>
+            <li class="navbar__menu_item" data-link="#work">My study</li>
+            <li class="navbar__menu_item" data-link="#contact">Contact</li>
+        </ul>
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="imgs/avatar1.png" alt="profile photo" class="home__avatar">
+        <h1 class="home__title">Hello,<br/> I'm Dream Coder, Jieun Seo</h1>
+        <h2 class="home__description"> </h2>
+        
+        <button class="home__contact">Contact Me</button>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section .section__container">
+        <h1>About me</h1>
+        <p> 
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">HTML</h2>
+                <div class="major__description">
+                   
+                </div>
+            </div>
+            
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h2 class="major__title">CSS</h2>
+                <div class="major__description">   
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h2 class="major__title">JavaScript</h2>
+                <div class="major__description">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills &amp; Attribute</h2>
+            <p>
+                국비지원 직업훈련과정: 스마트 하이브리드앱 콘텐츠 개발 수료 2020.05.15 - 2020.10.30
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Javascript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Phtoshop/Illustrator</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JQuery</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>EditPlus</span></li>
+                            <li><span>Brackets</span></li>
+                            <li><span>Vanila Javascript</span></li>
+                            <li><span>AdobeXD</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <li><span>웹디자인 기능사</span></li>
+                        <li><span>GTQ그래픽기술자격 2급</span></li>
+                        <li><span>TOEIC 935</span></li>
+                        <li><span>OPIC AL</span></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__cat">
+                <button class="cat__btn selected" data-filter="*">All<span class="cat__count">8</span></button>
+                <button class="cat__btn" data-filter="webdesign">Web design<span class="cat__count">4</span></button>
+                <button class="cat__btn" data-filter="design">Design<span class="cat__count">4</span></button>
+                <button class="cat__btn" data-filter="mobile">Mobile<span class="cat__count">0</span></button>
+            </div>
+            <div class="work__projects">
+                <a 
+                    href="https://holosoft.co.kr/~zsose3838/" 
+                    class="project" 
+                    target="blank"
+                    data-type="webdesign" 
+                >
+                    <img class="project__img" src="imgs/project2.png" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>개인 홈페이지</h3>
+                        <span>Coding with HTML, CSS</span>
+                    </div>
+                </a>
+                <a 
+                    href="https://jeunwork.github.io/peacemaker/" 
+                    class="project" 
+                    target="blank"
+                    data-type="webdesign" 
+                >
+                    <img class="project__img" src="imgs/project1.png" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>Yogastuido</h3>
+                        <span>Responsive web design with HTML, CSS, Javascript and Jquery</span>
+                    </div>
+                </a>
+                
+                <a 
+                    href="https://jeunwork.github.io/Clone-coding-HansolHDC/" 
+                    class="project" 
+                    target="blank"
+                    data-type="webdesign" 
+                >
+                    <img class="project__img" src="imgs/project3.png" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>한솔홈데코 클론코딩</h3>
+                        <span>Clone coding with HTML and CSS</span>
+                    </div>
+                </a>
+                
+                <a 
+                    href="https://jeunwork.github.io/square_grid/" 
+                    class="project" 
+                    target="blank"
+                    data-type="webdesign" 
+                >
+                    <img class="project__img" src="imgs/square_grid.png" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>square_grid</h3>
+                        <span> Responsive grid with HTML and CSS</span>
+                    </div>
+                </a>
+                <a 
+                    href="" 
+                    class="project" 
+                    target="blank"
+                    data-type="design" 
+                >
+                    <img class="project__img" src="imgs/1987redesign.jpeg" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>Poster redesign</h3>
+                        <span>영화 1987 포스터 리디자인 with photoshop</span>
+                    </div>
+                </a>
+                <a 
+                    href="" 
+                    class="project" 
+                    target="blank"
+                    data-type="design" 
+                >
+                    <img class="project__img" src="imgs/tango.jpg" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>포스터 디자인</h3>
+                        <span>tango dance festival 포스터 디자인 with photoshop</span>
+                    </div>
+                </a>
+                <a 
+                    href="" 
+                    class="project" 
+                    target="blank"
+                    data-type="design" 
+                >
+                    <img class="project__img" src="imgs/thebird.jpg" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>포스터 디자인</h3>
+                        <span>영화 thebird 포스터 디자인 with photoshop</span>
+                    </div>
+                </a>
+                <a 
+                    href="" 
+                    class="project" 
+                    target="blank"
+                    data-type="design" 
+                >
+                    <img class="project__img" src="imgs/tag.jpg" alt="Github 연결">
+                    <div class="project__description">
+                        <h3>tag 디자인</h3>
+                        <span>tag 디자인 with photoshop</span>
+                    </div>
+                </a>
+            </div>    
+        </div>
+    </section>
+    <!-- Study -->
+    <section id="study">
+        
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">jeunwork@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/jeunwork" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <p class="contact__rights">2020 jeunwork Jieun S</p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
