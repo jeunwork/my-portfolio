@@ -392,46 +392,25 @@ p {
     background-color: dark var(--color-dark-white);
 }
 
-/* Testimonial */
-#testimonials {
-    background-color: var(--color-light-white);
-}
-
-.testimonials {
-    margin: 40px;
-}
-
-.testimonial {
+/* How I study */
+#study {
+    background-color: var(--color-whitewhite);
     display: flex;
-    margin: 32px 0;
+    flex-direction: column;
+    background-color: var(--color-yellow);
 }
 
-.testimonial__avatar {
-    width: 150px;
-    height:150px;
+#study a {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-}
+    background: url('imgs/jeunwork.jpg');
+    background-size: 440px;
+    background-position: -80px -80px;
+    margin: auto;
 
-.testimonial__avatar:nth-child(odd) {
-    margin-right: 40px;
-}
-
-.testimonial__avatar:nth-child(even) {
-    margin-left: 40px;
-}
-
-.testimonial__speech-bubble {
-    padding :18px;
-    background-color: var(--color-white);
-    border-radius: var(--size-border-radius);
-}
-
-.testimonial__speech-bubble p {
-    color: var(--color-light-gray);
-}
-
-.testimonial__speech-bubble a {
-    color: var(--color-pink);
 }
 
 #contact {
